@@ -149,7 +149,6 @@ function showAlert(){
       largeImg.classList.remove("hidden")
       largeImg.classList.add("flex")
     }else{
-      video.autoplay = true
       largeImg.classList.add("hidden")
       video.classList.remove("hidden")
       video.classList.add("flex")
