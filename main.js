@@ -1,4 +1,4 @@
-import Main from "./src/components/content"
+import Main from "./src/components/Content"
 import Header from "./src/components/Header"
 import "./style.css"
 
