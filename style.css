@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    width: 100vw;
+    overflow: hidden;
+    background: rgb(189,195,199);
+    background: linear-gradient(330deg, rgba(189,195,199,1) 14%, rgba(44,62,80,1) 100%);
+    position: relative;
+    @apply md:h-[100vh] h-[125vh]
+}
+
+
+header{
+  @apply w-[85%] mx-auto py-5 bg-center bg-no-repeat bg-cover  gap-6 flex justify-between items-center flex-col md:flex-row md:gap-3
+}
+
+
+.item{
+  @apply  w-[100%] h-[300px] object-cover rounded-xl  cursor-pointer hover:scale-105 duration-300
+}
+#content{
+  @apply flex h-[calc(100vh-90px)] w-[100%] overflow-hidden py-4 px-1
+}
+
+#prew{
+  @apply w-[100%] h-[120vh] md:h-[100vh] bg-[#ffffff00] backdrop-blur absolute top-0 
+}
+
+
+.main-cont{
+  @apply  w-[95%] md:h-[80%] h-[45%] bg-white rounded-2xl flex justify-between items-start  py-2 pl-2 pr-2 md:pr-10 relative
+}
+
+
+#large-img{
+  @apply w-[100%] h-[100%] object-contain rounded-xl
+}
+#video{
+  @apply w-[100%] h-[100%] object-contain rounded-xl
+}
+
+#btn{
+  @apply text-[30px] absolute top-0 right-[10px]
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 100px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 100px;
+  }
+  
